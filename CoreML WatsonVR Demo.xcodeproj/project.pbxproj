@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12C166C7206E2102004DBDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C166C6206E2102004DBDFC /* AppDelegate.swift */; };
-		12C166C9206E2102004DBDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C166C8206E2102004DBDFC /* ViewController.swift */; };
+		12C166C9206E2102004DBDFC /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C166C8206E2102004DBDFC /* ClassifyViewController.swift */; };
 		12C166CC206E2102004DBDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C166CA206E2102004DBDFC /* Main.storyboard */; };
 		12C166CF206E2102004DBDFC /* CoreML_WatsonVR_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12C166CD206E2102004DBDFC /* CoreML_WatsonVR_Demo.xcdatamodeld */; };
 		12C166D1206E2106004DBDFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C166D0206E2106004DBDFC /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		12C166C3206E2102004DBDFC /* CoreML WatsonVR Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML WatsonVR Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C166C6206E2102004DBDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12C166C8206E2102004DBDFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12C166C8206E2102004DBDFC /* ClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
 		12C166CB206E2102004DBDFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12C166CE206E2102004DBDFC /* CoreML_WatsonVR_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreML_WatsonVR_Demo.xcdatamodel; sourceTree = "<group>"; };
 		12C166D0206E2106004DBDFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				12C166C6206E2102004DBDFC /* AppDelegate.swift */,
-				12C166C8206E2102004DBDFC /* ViewController.swift */,
+				12C166C8206E2102004DBDFC /* ClassifyViewController.swift */,
 				12C166CA206E2102004DBDFC /* Main.storyboard */,
 				12C166D0206E2106004DBDFC /* Assets.xcassets */,
 				12C166D2206E2106004DBDFC /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C166C9206E2102004DBDFC /* ViewController.swift in Sources */,
+				12C166C9206E2102004DBDFC /* ClassifyViewController.swift in Sources */,
 				12C166C7206E2102004DBDFC /* AppDelegate.swift in Sources */,
 				12C166CF206E2102004DBDFC /* CoreML_WatsonVR_Demo.xcdatamodeld in Sources */,
 			);
@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F53KK26NEU;
 				INFOPLIST_FILE = "CoreML WatsonVR Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F53KK26NEU;
 				INFOPLIST_FILE = "CoreML WatsonVR Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
